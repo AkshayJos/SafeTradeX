@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BACKEND_URL = 'https://safetradex.onrender.com';
+export const BACKEND_URL = 'https://safetradex-backend.onrender.com';
 
 const api = axios.create({
   baseURL: BACKEND_URL,
